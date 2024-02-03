@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body {
+  box-sizing: border-box;
+  background-color: peachpuff;
+  background-image: 
+    linear-gradient(335deg, rgb(252, 176, 100) 12px, transparent 12px),
+    linear-gradient(155deg, rgb(249, 194, 140) 12px, transparent 12px),
+    linear-gradient(335deg, rgb(252, 176, 100) 12px, transparent 12px),
+    linear-gradient(155deg, rgb(249, 194, 140) 12px, transparent 12px);
+  background-size: 30px 30px;
+  background-position: 0px 1px, 2px 18px, 15px 16px, 17px 3px;
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  min-width: 350px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:visited {
+  color: inherit;
+}
+
+.main-router { 
+  width: 90%;
+  margin: 1rem auto;
+  border: 2px solid peachpuff;
+  background-color: peachpuff;
+  border-radius: 1rem;
+  position: relative;
+}
+
+.returnarrow {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+
+.returnicon {
+  height: 2.5rem;
+  width: 3.5rem;
+  max-height: 40px;
+  color: firebrick;
+}
+
+.select-menu, input, .add-feature-button {
+  height: 2.5rem;
+  width: fit-content;
+  background-color: rgb(249, 194, 140);
+  border: 2px solid rgb(252, 176, 100);
+  border-radius: 3px;
+  text-align: center;
+  font-weight: bold;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+input::placeholder {
+  color: indianred;
+}

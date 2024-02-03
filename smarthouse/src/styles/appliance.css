@@ -1,0 +1,38 @@
+
+.appliance {
+    --width: 13rem;
+    height: calc(0.4*var(--width));
+    min-width: var(--width);
+    max-width: 90%;
+    border-radius: 1rem;
+    
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.appliance:hover {
+    cursor: pointer;
+  }
+
+
+.applianceName {
+    margin: 0;
+}
+
+.switch {
+    background: none;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: smaller;
+}
+
+.appIcon {
+    aspect-ratio: 1/1;
+    height: 100%;
+    width: 18%;
+    max-width: 40px;
+}

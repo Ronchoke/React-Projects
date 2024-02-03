@@ -1,0 +1,40 @@
+.header {
+    height: 10vh;
+    width: 100%;
+    font-size: 100%;
+    
+    display: inline-flex;
+    align-content: center;
+    justify-content: space-between;
+    
+    position: relative;
+
+    background: linear-gradient(to bottom, lightskyblue 5%, lightblue 80%);
+}
+
+.headericon {
+    aspect-ratio: 1/1;
+    height: 100%;
+    width: 6%;
+    max-width: 40px;
+    position: absolute;
+    left: 5%;
+    top:50%;
+    translate: -0% -50%;
+}
+
+.header h1 {
+    position: absolute;
+    left: 50%;
+    translate: -50% ;
+    text-shadow: 2px 2px indianred;
+}
+
+.header::before {
+    width: 100%;
+    height: 100%;
+    content: '';
+    background: linear-gradient(to right, firebrick 45%, rgb(128, 12, 12) 75%);
+    background-position: 0 0;
+    clip-path: polygon(50% 0%, 0% 92%, 0% 100%, 100% 100%, 100% 92%);
+} 
